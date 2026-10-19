@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BatteriaSacchi</string>
+    <string name="kick">Kick</string>
+    <string name="snare">Snare</string>
+    <string name="hi_hat_chiuso">Hi-Hat chiuso</string>
+    <string name="hi_hat_aperto">Hi-Hat aperto</string>
+    <string name="tom_alto">Tom alto</string>
+    <string name="tom_basso">Tom basso</string>
+    <string name="clap">Clap</string>
+    <string name="crash">Crash</string>
+</resources>

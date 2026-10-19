@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:columnCount="4"
+    android:rowCount="2"
+    android:padding="8dp">
+
+    <!-- Riga 1 -->
+    <Button
+        android:id="@+id/btnKick"
+        style="@style/PadStyle"
+        android:backgroundTint="#E53935"
+        android:text="@string/kick" />
+
+    <Button
+        android:id="@+id/btnSnare"
+        style="@style/PadStyle"
+        android:backgroundTint="#FB8C00"
+        android:text="@string/snare" />
+
+    <Button
+        android:id="@+id/btnHihatClosed"
+        style="@style/PadStyle"
+        android:backgroundTint="#FDD835"
+        android:text="@string/hi_hat_chiuso"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnHihatOpen"
+        style="@style/PadStyle"
+        android:backgroundTint="#7CB342"
+        android:text="@string/hi_hat_aperto" />
+
+    <!-- Riga 2 -->
+    <Button
+        android:id="@+id/btnTomHigh"
+        style="@style/PadStyle"
+        android:backgroundTint="#00ACC1"
+        android:text="@string/tom_alto" />
+
+    <Button
+        android:id="@+id/btnTomLow"
+        style="@style/PadStyle"
+        android:backgroundTint="#1E88E5"
+        android:text="@string/tom_basso" />
+
+    <Button
+        android:id="@+id/btnClap"
+        style="@style/PadStyle"
+        android:backgroundTint="#8E24AA"
+        android:text="@string/clap" />
+
+    <Button
+        android:id="@+id/btnCrash"
+        style="@style/PadStyle"
+        android:backgroundTint="#D81B60"
+        android:text="@string/crash" />
+
+</GridLayout>
